@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educamás · Tarjetas Interactivas de Memoria — Cubo GWS Semana 2</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800;9..144,900&family=Outfit:wght@400;500;600&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#FDC300; --yellow-soft:#FFF4BF; --yellow-line:#F3D77A;
+    --black:#111111; --ink:#222222; --muted:#666666; --bg:#F7F7F7; --card:#FFFFFF;
+    --code-bg:#1E2230; --code-ink:#FFD84D; --red:#E0322B; --green:#1E9E4A; --orange:#F08A00;
+    --line:#E6E6E6; --radius:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Roboto Condensed',Arial Narrow,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+
+  /* ---------- Header ---------- */
+  .topbar{background:var(--black);color:#fff;font-family:'Outfit',sans-serif;font-size:14px;letter-spacing:.3px;padding:10px 24px;display:flex;align-items:center;gap:10px}
+  .topbar img{width:22px;height:22px;filter:invert(1) brightness(2)}
+  .hero{position:relative;background:var(--yellow);overflow:hidden;padding:48px 24px 56px}
+  .hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.28) 0 38px,transparent 39px),radial-gradient(circle at 70% 70%,rgba(255,255,255,.22) 0 26px,transparent 27px);background-size:180px 180px;pointer-events:none}
+  .hero-inner{position:relative;max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .pill{display:inline-block;background:var(--black);color:#fff;font-family:'Outfit',sans-serif;font-weight:500;font-size:15px;padding:9px 22px;border-radius:0 999px 999px 0;margin-left:-24px;margin-bottom:18px}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:900;font-size:clamp(30px,4.6vw,52px);line-height:1.05;color:var(--black);max-width:760px}
+  .hero p{font-family:'Outfit',sans-serif;font-size:17px;margin-top:14px;max-width:680px;color:var(--black)}
+  .hero .logo-big{width:110px;flex-shrink:0}
+
+  /* ---------- Controls ---------- */
+  main{max-width:1180px;margin:0 auto;padding:32px 24px 56px}
+  .section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px}
+  h2{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:clamp(22px,2.8vw,30px);color:var(--black)}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .btn{font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;border:2px solid var(--black);background:var(--black);color:#fff;padding:9px 18px;border-radius:999px;cursor:pointer;transition:transform .15s,background .15s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.ghost{background:transparent;color:var(--black)}
+  .filters{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 22px}
+  .chip{font-family:'Outfit',sans-serif;font-size:13px;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:7px 14px;border-radius:999px;cursor:pointer}
+  .chip.active{background:var(--yellow);border-color:var(--yellow);color:var(--black);font-weight:600}
+  .search{flex:1 1 240px;max-width:340px;font-family:'Outfit',sans-serif;font-size:14px;padding:10px 16px;border-radius:999px;border:1.5px solid var(--line);background:#fff;outline:none}
+  .search:focus{border-color:var(--black)}
+
+  /* ---------- Cards ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:20px;align-items:start}
+  .grid>*{min-width:0}
+  td,th{overflow-wrap:anywhere}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 2px 8px rgba(0,0,0,.05);padding:22px 22px 18px;display:flex;flex-direction:column;transition:box-shadow .2s}
+  .card:hover{box-shadow:0 6px 18px rgba(0,0,0,.08)}
+  .card-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .num{font-family:'Outfit',sans-serif;font-weight:600;font-size:15px;background:var(--black);color:var(--yellow);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex-shrink:0}
+  .tag{font-family:'Outfit',sans-serif;font-size:11px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--orange)}
+  .card h3{font-family:'Roboto Condensed',sans-serif;font-weight:700;font-size:20px;color:var(--black);line-height:1.2;text-transform:uppercase}
+  .question{font-size:16px;margin:4px 0 16px;color:var(--ink)}
+  .reveal{align-self:flex-start}
+  .answer{display:none;margin-top:16px;border-top:1px dashed var(--line);padding-top:14px;animation:fade .25s ease}
+  .card.open .answer{display:block}
+  .card.open .reveal{background:transparent;color:var(--black)}
+  @keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+  .formula{position:relative;background:var(--code-bg);color:var(--code-ink);font-family:'JetBrains Mono',Consolas,monospace;font-size:14px;font-weight:700;padding:13px 70px 13px 14px;border-radius:10px;margin:6px 0 12px;word-break:break-word}
+  .copy{position:absolute;top:8px;right:8px;font-family:'Outfit',sans-serif;font-size:11px;background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;padding:5px 10px;cursor:pointer}
+  .copy.ok{background:var(--green)}
+  table{width:100%;border-collapse:collapse;margin:6px 0 12px;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--yellow-soft);font-weight:700;color:var(--black)}
+  kbd{font-family:'JetBrains Mono',Consolas,monospace;font-size:12.5px;background:#fff;border:1px solid #cfcfcf;border-bottom-width:2px;border-radius:5px;padding:1px 6px;white-space:nowrap}
+  .case{background:var(--yellow-soft);border:1px solid var(--yellow-line);border-radius:10px;padding:10px 12px;font-size:15px}
+  .case b{color:var(--black)}
+  .note{font-size:14px;color:var(--muted);margin-top:8px;font-style:italic}
+  .answer p{margin-bottom:8px}
+  .hidden{display:none!important}
+  .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--black);color:#ddd;font-family:'Outfit',sans-serif;font-size:13px;text-align:center;padding:22px 24px}
+  footer b{color:var(--yellow);font-weight:600}
+
+  @media (max-width:600px){
+    .grid{grid-template-columns:1fr}
+    .hero .logo-big{display:none}
+    .hero{padding:36px 16px 40px}
+    main{padding:24px 16px 40px}
+    .pill{margin-left:-16px}
+    table{font-size:13px}
+    th,td{padding:6px 7px}
+    .card{padding:18px 16px 16px}
+  }
+  @media print{
+    .answer{display:block!important}.controls,.filters,.reveal,.copy{display:none!important}
+    .card{break-inside:avoid;box-shadow:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><img src="data:image/png;base64,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" alt="">Educamás | Kit Docente GWS</div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="pill">Semana 2 · Funciones clave para oficina</span>
+      <h1>Tarjetas de Memoria: Fórmulas y Funciones del Cubo GWS</h1>
+      <p>Lee la situación, intenta responder de memoria y luego toca <b>Ver Respuesta</b>. Recordar antes de mirar es lo que fija el aprendizaje.</p>
+    </div>
+    <img class="logo-big" src="data:image/png;base64,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" alt="Logo Educamás">
+  </div>
+</header>
+
+<main>
+  <div class="section-head">
+    <h2>Tarjetas de Memoria — Funciones del Cubo GWS</h2>
+    <div class="controls">
+      <input class="search" id="search" type="search" placeholder="Buscar: BUSCARV, promedio, F4…" aria-label="Buscar tarjeta">
+      <button class="btn" id="showAll">Revelar Todas</button>
+      <button class="btn ghost" id="hideAll">Ocultar Todas</button>
+    </div>
+  </div>
+  <div class="filters" id="filters">
+    <button class="chip active" data-f="all">Todas</button>
+    <button class="chip" data-f="resumen">Resumir</button>
+    <button class="chip" data-f="logica">Lógica y errores</button>
+    <button class="chip" data-f="condicion">Con condición</button>
+    <button class="chip" data-f="buscar">BUSCARV / BUSCARH</button>
+    <button class="chip" data-f="atajo">Atajos y formato</button>
+  </div>
+
+  <section class="grid" id="grid">
+
+    <article class="card" data-cat="resumen">
+      <div class="card-top"><span class="num">01</span><div><div class="tag">Suma total</div><h3>¿Cuánto vendimos en total?</h3></div></div>
+      <p class="question">El gerente pide la venta neta del trimestre. ¿Qué función usas y qué atajo la escribe por ti?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=SUMA(O5:O224)</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Sistema</th><th>Autosuma</th></tr>
+          <tr><td>Windows / Linux</td><td><kbd>Alt</kbd> + <kbd>=</kbd></td></tr>
+          <tr><td>Mac</td><td><kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd></td></tr></table>
+        <div class="case"><b>Caso GWS:</b> en Semana2_Funciones la venta neta total es <b>$127.642.683</b> (220 pedidos).</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="resumen">
+      <div class="card-top"><span class="num">02</span><div><div class="tag">Pedido típico</div><h3>Ticket promedio</h3></div></div>
+      <p class="question">¿Cuánto vale, en promedio, un pedido del trimestre? ¿Cuándo usar PROMEDIO en vez de SUMA?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=PROMEDIO(O5:O224)</span><button class="copy">Copiar</button></div>
+        <p><b>SUMA</b> responde "¿cuánto en total?". <b>PROMEDIO</b> responde "¿cuánto por pedido?".</p>
+        <div class="case"><b>Caso GWS:</b> ticket promedio = <b>$580.194</b>. Solo Centro Oriente está por encima ($630.549).</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="resumen">
+      <div class="card-top"><span class="num">03</span><div><div class="tag">Extremos</div><h3>Mejor y peor pedido</h3></div></div>
+      <p class="question">Necesitas el valor del pedido más grande y del más pequeño del trimestre. ¿Qué dos funciones usas?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=MAX(O5:O224)</span><button class="copy">Copiar</button></div>
+        <div class="formula"><span>=MIN(O5:O224)</span><button class="copy">Copiar</button></div>
+        <div class="case"><b>Caso GWS:</b> MAX = <b>$3.183.300</b> · MIN = <b>-$10.736</b>. Un mínimo negativo es una alerta: la devolución superó lo facturado.</div>
+        <p class="note">Para ver el detalle de ese pedido, ordena de mayor a menor, copia su Venta_ID (VTA-00340) y consúltalo con BUSCARV (tarjeta 12).</p>
+      </div>
+    </article>
+
+    <article class="card" data-cat="resumen">
+      <div class="card-top"><span class="num">04</span><div><div class="tag">Conteos</div><h3>CONTAR vs. CONTARA</h3></div></div>
+      <p class="question">¿Cuál cuenta solo números y cuál cuenta todo lo que no esté vacío? ¿Qué significa si dan resultados distintos?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <table><tr><th>Función</th><th>Qué cuenta</th><th>Ejemplo</th></tr>
+          <tr><td><b>CONTAR</b></td><td>Solo celdas con números</td><td><code>=CONTAR(O5:O224)</code></td></tr>
+          <tr><td><b>CONTARA</b></td><td>Celdas no vacías (texto o número)</td><td><code>=CONTARA(A5:A224)</code></td></tr></table>
+        <div class="case"><b>Caso GWS:</b> ambas dan <b>220</b>. Si CONTAR diera menos, hay ventas guardadas como texto (error de la semana 1).</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="resumen">
+      <div class="card-top"><span class="num">05</span><div><div class="tag">Operación básica</div><h3>Calcular la venta neta</h3></div></div>
+      <p class="question">¿Cómo calculas la venta neta de cada pedido y la copias a las 220 filas sin arrastrar?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=K5-M5-N5</span><button class="copy">Copiar</button></div>
+        <p>Venta neta = Venta bruta − Descuento − Devolución.</p>
+        <table><tr><th>Acción</th><th>Cómo</th></tr>
+          <tr><td>Copiar hasta la última fila</td><td>Doble clic en el cuadrito inferior derecho de la celda (controlador de relleno)</td></tr>
+          <tr><td>Rellenar hacia abajo</td><td><kbd>Ctrl</kbd> + <kbd>D</kbd> · Mac: <kbd>Cmd</kbd> + <kbd>D</kbd></td></tr></table>
+        <div class="case"><b>Caso GWS:</b> VTA-00301 → 240.400 − 12.020 − 0 = <b>$228.380</b>.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="logica">
+      <div class="card-top"><span class="num">06</span><div><div class="tag">Decisión</div><h3>Marcar ventas para revisar</h3></div></div>
+      <p class="question">¿Cómo haces que Excel escriba "Venta positiva" o "Revisar" según la venta neta de cada pedido?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=SI(O5&gt;0;"Venta positiva";"Revisar")</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Parte</th><th>Significado</th></tr>
+          <tr><td>O5&gt;0</td><td>Prueba lógica (¿es mayor que cero?)</td></tr>
+          <tr><td>"Venta positiva"</td><td>Lo que escribe si es VERDADERO</td></tr>
+          <tr><td>"Revisar"</td><td>Lo que escribe si es FALSO</td></tr></table>
+        <div class="case"><b>Caso GWS:</b> 2 pedidos quedan en "Revisar": La Esquina 4 y La Reserva 1.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="logica">
+      <div class="card-top"><span class="num">07</span><div><div class="tag">Paraguas</div><h3>SI.ERROR</h3></div></div>
+      <p class="question">Tu fórmula de % de devolución muestra #¡DIV/0! cuando la venta bruta está vacía. ¿Cómo muestras 0 en su lugar?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=SI.ERROR(N5/K5;0)</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Error</th><th>Causa típica</th></tr>
+          <tr><td>#¡DIV/0!</td><td>Dividir entre cero o celda vacía</td></tr>
+          <tr><td>#N/D</td><td>BUSCARV no encontró el código (espacios, mal escrito o falta FALSO)</td></tr>
+          <tr><td>#¿NOMBRE?</td><td>Función mal escrita o coma en vez de ;</td></tr></table>
+        <p class="note">Úsalo cuando el error es esperado. No lo uses para esconder datos sucios.</p>
+      </div>
+    </article>
+
+    <article class="card" data-cat="logica">
+      <div class="card-top"><span class="num">08</span><div><div class="tag">SI anidado</div><h3>Semáforo del cliente</h3></div></div>
+      <p class="question">Quieres tres respuestas: "Sin compras", "REVISAR devoluciones" si pasa del 5 %, o "OK". ¿Cómo encadenas dos SI?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=SI(C16=0;"Sin compras";SI(C23&gt;$E$4;"REVISAR devoluciones";"OK"))</span><button class="copy">Copiar</button></div>
+        <p>El segundo SI va en el lugar del "falso" del primero. Cuenta los paréntesis: uno por cada SI.</p>
+        <div class="case"><b>Caso GWS:</b> La Estación 3 (CLI-054) devuelve el <b>8,7 %</b> → REVISAR. El Portal 1 (CLI-015) → OK.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="atajo">
+      <div class="card-top"><span class="num">09</span><div><div class="tag">Referencias</div><h3>Fijar una celda con $</h3></div></div>
+      <p class="question">Copias =C36/C40 hacia abajo y aparece #¡DIV/0!. ¿Qué pasó y cuál es el atajo para arreglarlo?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=C36/$C$40</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Sistema</th><th>Poner / quitar $</th></tr>
+          <tr><td>Windows / Linux</td><td><kbd>F4</kbd></td></tr>
+          <tr><td>Mac</td><td><kbd>Cmd</kbd> + <kbd>T</kbd></td></tr></table>
+        <p>Sin $, la referencia se mueve al copiar (C40 → C41, vacía). Con $, siempre apunta al total.</p>
+        <div class="case"><b>Caso GWS:</b> % de participación por territorio: Centro Oriente = <b>30,1 %</b>.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="condicion">
+      <div class="card-top"><span class="num">10</span><div><div class="tag">Con condición</div><h3>CONTAR.SI y SUMAR.SI</h3></div></div>
+      <p class="question">¿Cómo sacas cuántos pedidos y cuánta venta tiene un solo territorio o un solo cliente, sin filtrar?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=CONTAR.SI(E5:E224;"Centro Oriente")</span><button class="copy">Copiar</button></div>
+        <div class="formula"><span>=SUMAR.SI(E5:E224;"Centro Oriente";O5:O224)</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Argumento</th><th>Pregunta</th></tr>
+          <tr><td>1.º</td><td>¿Dónde busco? (columna Territorio)</td></tr>
+          <tr><td>2.º</td><td>¿Qué busco? (texto o celda)</td></tr>
+          <tr><td>3.º (solo SUMAR.SI)</td><td>¿Qué sumo? (columna Venta neta)</td></tr></table>
+        <div class="case"><b>Caso GWS:</b> Centro Oriente = <b>61 pedidos</b> y <b>$38.463.464</b>.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="buscar">
+      <div class="card-top"><span class="num">11</span><div><div class="tag">Función estrella</div><h3>BUSCARV</h3></div></div>
+      <p class="question">Tienes el código CLI-054 en C4 y necesitas el nombre del cliente del Cubo. ¿Cómo lo traes con BUSCARV?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=BUSCARV($C$4;Cubo_Simulado!$G$5:$N$904;2;FALSO)</span><button class="copy">Copiar</button></div>
+        <table><tr><th>Argumento</th><th>Qué es</th></tr>
+          <tr><td>$C$4</td><td>Qué busco (el Cliente_ID)</td></tr>
+          <tr><td>$G$5:$N$904</td><td>En qué tabla. La 1.ª columna (G) debe ser la del código</td></tr>
+          <tr><td>2</td><td>Qué columna me traigo, contando desde G</td></tr>
+          <tr><td>FALSO</td><td>Coincidencia exacta. Siempre FALSO (o 0)</td></tr></table>
+        <table><tr><th>Dato</th><th>Columna</th><th>Número</th></tr>
+          <tr><td>Cliente</td><td>H</td><td>2</td></tr><tr><td>Territorio</td><td>K</td><td>5</td></tr>
+          <tr><td>Canal</td><td>M</td><td>7</td></tr><tr><td>Ruta</td><td>N</td><td>8</td></tr></table>
+        <div class="case"><b>Caso GWS:</b> CLI-054 → <b>La Estación 3</b> · Bogotá Sur · TaT · Ruta 6.</div>
+        <p class="note">Funciona en todas las versiones de Excel. Solo busca hacia la derecha del código.</p>
+      </div>
+    </article>
+
+    <article class="card" data-cat="buscar">
+      <div class="card-top"><span class="num">12</span><div><div class="tag">Consultar factura</div><h3>BUSCARV + SI.ERROR</h3></div></div>
+      <p class="question">Un pedido quedó en "Revisar" (VTA-00376). ¿Cómo traes su cliente, su devolución y su venta neta, y cómo evitas el #N/D si el código no existe?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=SI.ERROR(BUSCARV($C$23;Semana2_Funciones!$A$5:$Q$224;4;FALSO);"Factura no existe")</span><button class="copy">Copiar</button></div>
+        <p>La tabla empieza en A (Venta_ID). Solo cambias el número de columna: 4 Cliente · 5 Territorio · 8 Referencia · 11 Venta bruta · 14 Devolución · 15 Venta neta · 16 Estado.</p>
+        <div class="case"><b>Caso GWS:</b> VTA-00376 → <b>La Esquina 4</b>, Bogotá Sur, Vodka Premium: facturó $134.200 y devolvió <b>$134.200</b> → venta neta <b>-$10.736</b>.</div>
+        <p class="note">Truco para contar columnas: selecciona desde la 1.ª columna de la tabla hasta la del dato; Excel muestra "1F x 4C" mientras arrastras.</p>
+      </div>
+    </article>
+
+    <article class="card" data-cat="buscar">
+      <div class="card-top"><span class="num">13</span><div><div class="tag">Reportes horizontales</div><h3>BUSCARH</h3></div></div>
+      <p class="question">Te llega un resumen con los territorios en columnas (fila 2), la venta neta en la fila 3 y los pedidos en la fila 4. ¿Cómo traes la venta de Sabana?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=BUSCARH("Sabana";B2:E4;2;FALSO)</span><button class="copy">Copiar</button></div>
+        <table><tr><th>BUSCARV</th><th>BUSCARH</th></tr>
+          <tr><td>Busca en la 1.ª <b>columna</b></td><td>Busca en la 1.ª <b>fila</b></td></tr>
+          <tr><td>Trae de una columna a la derecha</td><td>Trae de una fila hacia abajo</td></tr>
+          <tr><td>Bases como el Cubo (un pedido por fila)</td><td>Reportes con territorios o meses en columnas</td></tr></table>
+        <div class="case"><b>Caso GWS:</b> Sabana → <b>$31.806.852</b> (fila 2 de la tabla). Con 3 traerías los pedidos: 57.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="condicion">
+      <div class="card-top"><span class="num">14</span><div><div class="tag">Comparar</div><h3>Promedio de la zona</h3></div></div>
+      <p class="question">¿Tu cliente compra más o menos que el promedio de su territorio? ¿Qué función calcula el promedio con condición?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <div class="formula"><span>=PROMEDIO.SI(Cubo_Simulado!K5:K904;C10;Cubo_Simulado!AA5:AA904)</span><button class="copy">Copiar</button></div>
+        <div class="case"><b>Caso GWS:</b> ticket de La Estación 3 = <b>$606.939</b> vs. Bogotá Sur = <b>$631.050</b> → bajo el promedio del territorio.</div>
+      </div>
+    </article>
+
+    <article class="card" data-cat="atajo">
+      <div class="card-top"><span class="num">15</span><div><div class="tag">Formato</div><h3>Porcentaje y moneda</h3></div></div>
+      <p class="question">Tu % de devolución aparece como 0,087 y tus ventas sin signo pesos. ¿Qué atajos les dan formato?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <table><tr><th>Formato</th><th>Windows / Linux</th><th>Mac</th></tr>
+          <tr><td>Porcentaje</td><td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>%</kbd></td><td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>%</kbd></td></tr>
+          <tr><td>Moneda</td><td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>$</kbd></td><td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>$</kbd></td></tr>
+          <tr><td>Formato de celdas</td><td><kbd>Ctrl</kbd>+<kbd>1</kbd></td><td><kbd>Cmd</kbd>+<kbd>1</kbd></td></tr></table>
+        <p class="note">Regla de oro: los porcentajes no se suman; se recalculan con los totales.</p>
+      </div>
+    </article>
+
+    <article class="card" data-cat="atajo">
+      <div class="card-top"><span class="num">16</span><div><div class="tag">Revisión</div><h3>Revisar tus fórmulas</h3></div></div>
+      <p class="question">El total no cuadra. ¿Cómo ves todas las fórmulas de la hoja a la vez y cómo editas una sin borrarla?</p>
+      <button class="btn reveal">Ver Respuesta</button>
+      <div class="answer">
+        <table><tr><th>Acción</th><th>Windows / Linux</th><th>Mac</th></tr>
+          <tr><td>Mostrar fórmulas</td><td><kbd>Ctrl</kbd>+<kbd>`</kbd></td><td><kbd>Ctrl</kbd>+<kbd>`</kbd></td></tr>
+          <tr><td>Editar celda</td><td><kbd>F2</kbd></td><td><kbd>Ctrl</kbd>+<kbd>U</kbd></td></tr>
+          <tr><td>Autocompletar función</td><td><kbd>Tab</kbd></td><td><kbd>Tab</kbd></td></tr></table>
+        <div class="case"><b>Caso GWS:</b> control del Caso 1: la suma de los territorios debe dar lo mismo que la venta neta total, y la participación, 100 %.</div>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<footer>Fundación EducaMás · Upskilling Excel GWS · Modelo de Operación Comercial · Formadora: <b>Lorena Guerrero</b></footer>
+
+<script>
+(function(){
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  function setOpen(card, open){
+    card.classList.toggle('open', open);
+    var b = card.querySelector('.reveal');
+    if (b) b.textContent = open ? 'Ocultar Respuesta' : 'Ver Respuesta';
+  }
+  cards.forEach(function(card){
+    card.querySelector('.reveal').addEventListener('click', function(){ setOpen(card, !card.classList.contains('open')); });
+  });
+  document.getElementById('showAll').addEventListener('click', function(){ cards.forEach(function(c){ if(!c.classList.contains('hidden')) setOpen(c, true); }); });
+  document.getElementById('hideAll').addEventListener('click', function(){ cards.forEach(function(c){ setOpen(c, false); }); });
+
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var txt = btn.parentNode.querySelector('span').textContent;
+      function done(){ btn.textContent='¡Copiada!'; btn.classList.add('ok'); setTimeout(function(){ btn.textContent='Copiar'; btn.classList.remove('ok'); }, 1500); }
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); }); }
+      else { fallback(txt); done(); }
+    });
+  });
+  function fallback(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(a); }
+
+  var current = 'all', search = document.getElementById('search');
+  var grid = document.getElementById('grid'), empty = document.createElement('p');
+  empty.className = 'empty hidden'; empty.textContent = 'No hay tarjetas con esa búsqueda.'; grid.appendChild(empty);
+  function norm(s){ return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
+  function apply(){
+    var q = norm(search.value.trim()), shown = 0;
+    cards.forEach(function(c){
+      var ok = (current === 'all' || c.dataset.cat === current) && (!q || norm(c.textContent).indexOf(q) > -1);
+      c.classList.toggle('hidden', !ok); if (ok) shown++;
+    });
+    empty.classList.toggle('hidden', shown > 0);
+  }
+  document.querySelectorAll('.chip').forEach(function(ch){
+    ch.addEventListener('click', function(){
+      document.querySelectorAll('.chip').forEach(function(x){ x.classList.remove('active'); });
+      ch.classList.add('active'); current = ch.dataset.f; apply();
+    });
+  });
+  search.addEventListener('input', apply);
+})();
+</script>
+</body>
+</html>
